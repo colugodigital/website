@@ -1,0 +1,26 @@
+//
+// general.scss
+//
+
+body {
+    font-family: 'Assistant';
+    font-weight: 400;
+    overflow-x: hidden !important;
+    font-size: 21px;
+    color: $black;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Assistant';
+    line-height: 1.5;
+    font-weight: 600;
+}
+::selection {
+    background: lighten($primary, 5%);
+    color: $white;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    line-height: 1.6;
+}
